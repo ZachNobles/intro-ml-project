@@ -30,6 +30,14 @@ def count_variables(tree):
 def count_nonempty_lines(source):
     return sum(1 for line in source.splitlines() if line.strip())
 
+def count_print_statements(tree):
+    return sum(
+        isinstance(node, ast.Call)
+        and isinstance(node.func, ast.Name)
+        and node.func.id == "print"
+        for node in ast.walk(tree)
+    )
+
 def analyze_loops(tree):
     loop_count = 0
     max_depth = 0
@@ -67,6 +75,7 @@ def analyze_file(filename):
     conditional_count = count_conditionals(tree)
     variable_count = count_variables(tree)
     nonempty_line_count = count_nonempty_lines(source)
+    print_count = count_print_statements(tree)
 
     return input_type, {
         "loop_count": loop_count,
@@ -74,7 +83,8 @@ def analyze_file(filename):
         "function_count": function_count,
         "conditional_count": conditional_count,
         "variable_count": variable_count,
-        "nonempty_line_count": nonempty_line_count
+        "nonempty_line_count": nonempty_line_count,
+        "print_count": print_count
     }
 
 
