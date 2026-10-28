@@ -1,0 +1,222 @@
+{
+    "fibonacci_loop.py": {
+        "input_type": "int",
+        "data": {
+            "loop_count": 1,
+            "max_depth": 1,
+            "function_count": 1,
+            "conditional_count": 1,
+            "variable_count": 7
+        }
+    },
+    "fibonacci_recursive.py": {
+        "input_type": "int",
+        "data": {
+            "loop_count": 0,
+            "max_depth": 0,
+            "function_count": 2,
+            "conditional_count": 3,
+            "variable_count": 5
+        }
+    },
+    "gravity_simulator.py": {
+        "input_type": "int",
+        "data": {
+            "loop_count": 4,
+            "max_depth": 3,
+            "function_count": 1,
+            "conditional_count": 1,
+            "variable_count": 25
+        }
+    },
+    "huffman_encoding.py": {
+        "input_type": "int",
+        "data": {
+            "loop_count": 2,
+            "max_depth": 1,
+            "function_count": 1,
+            "conditional_count": 2,
+            "variable_count": 13
+        }
+    },
+    "k_means.py": {
+        "input_type": "int",
+        "data": {
+            "loop_count": 3,
+            "max_depth": 2,
+            "function_count": 1,
+            "conditional_count": 1,
+            "variable_count": 18
+        }
+    },
+    "linear_loop.py": {
+        "input_type": "int",
+        "data": {
+            "loop_count": 1,
+            "max_depth": 1,
+            "function_count": 1,
+            "conditional_count": 1,
+            "variable_count": 5
+        }
+    },
+    "linear_loop_with_prints.py": {
+        "input_type": "int",
+        "data": {
+            "loop_count": 1,
+            "max_depth": 1,
+            "function_count": 1,
+            "conditional_count": 1,
+            "variable_count": 5
+        }
+    },
+    "list_average.py": {
+        "input_type": "list[float]",
+        "data": {
+            "loop_count": 0,
+            "max_depth": 0,
+            "function_count": 1,
+            "conditional_count": 1,
+            "variable_count": 4
+        }
+    },
+    "list_stats.py": {
+        "input_type": "list[int]",
+        "data": {
+            "loop_count": 0,
+            "max_depth": 0,
+            "function_count": 1,
+            "conditional_count": 2,
+            "variable_count": 11
+        }
+    },
+    "list_sum.py": {
+        "input_type": "list[int]",
+        "data": {
+            "loop_count": 0,
+            "max_depth": 0,
+            "function_count": 1,
+            "conditional_count": 1,
+            "variable_count": 4
+        }
+    },
+    "logarithmic_loop.py": {
+        "input_type": "int",
+        "data": {
+            "loop_count": 1,
+            "max_depth": 1,
+            "function_count": 1,
+            "conditional_count": 1,
+            "variable_count": 4
+        }
+    },
+    "matrix_multiplication.py": {
+        "input_type": "int",
+        "data": {
+            "loop_count": 3,
+            "max_depth": 3,
+            "function_count": 1,
+            "conditional_count": 2,
+            "variable_count": 12
+        }
+    },
+    "maze_generator.py": {
+        "input_type": "int",
+        "data": {
+            "loop_count": 2,
+            "max_depth": 2,
+            "function_count": 1,
+            "conditional_count": 5,
+            "variable_count": 17
+        }
+    },
+    "password_generator.py": {
+        "input_type": "int",
+        "data": {
+            "loop_count": 0,
+            "max_depth": 0,
+            "function_count": 1,
+            "conditional_count": 1,
+            "variable_count": 5
+        }
+    },
+    "primes.py": {
+        "input_type": "int",
+        "data": {
+            "loop_count": 2,
+            "max_depth": 2,
+            "function_count": 1,
+            "conditional_count": 3,
+            "variable_count": 7
+        }
+    },
+    "quadratic_loop.py": {
+        "input_type": "int",
+        "data": {
+            "loop_count": 2,
+            "max_depth": 2,
+            "function_count": 1,
+            "conditional_count": 1,
+            "variable_count": 6
+        }
+    },
+    "remove_duplicates.py": {
+        "input_type": "list[str]",
+        "data": {
+            "loop_count": 0,
+            "max_depth": 0,
+            "function_count": 1,
+            "conditional_count": 1,
+            "variable_count": 3
+        }
+    },
+    "reverse_list.py": {
+        "input_type": "list[str]",
+        "data": {
+            "loop_count": 0,
+            "max_depth": 0,
+            "function_count": 1,
+            "conditional_count": 1,
+            "variable_count": 3
+        }
+    },
+    "sorting.py": {
+        "input_type": "list[int]",
+        "data": {
+            "loop_count": 0,
+            "max_depth": 0,
+            "function_count": 1,
+            "conditional_count": 1,
+            "variable_count": 4
+        }
+    },
+    "sorting_comparison.py": {
+        "input_type": "int",
+        "data": {
+            "loop_count": 2,
+            "max_depth": 2,
+            "function_count": 1,
+            "conditional_count": 3,
+            "variable_count": 12
+        }
+    },
+    "stock_simulator.py": {
+        "input_type": "list[float]",
+        "data": {
+            "loop_count": 1,
+            "max_depth": 1,
+            "function_count": 1,
+            "conditional_count": 1,
+            "variable_count": 8
+        }
+    },
+    "word_search_generator.py": {
+        "input_type": "list[str]",
+        "data": {
+            "loop_count": 5,
+            "max_depth": 3,
+            "function_count": 1,
+            "conditional_count": 6,
+            "variable_count": 22
+        }
+    }
+}
