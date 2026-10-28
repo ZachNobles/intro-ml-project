@@ -6,7 +6,8 @@
             "max_depth": 1,
             "function_count": 1,
             "conditional_count": 1,
-            "variable_count": 7
+            "variable_count": 7,
+            "nonempty_line_count": 13
         }
     },
     "fibonacci_recursive.py": {
@@ -16,7 +17,8 @@
             "max_depth": 0,
             "function_count": 2,
             "conditional_count": 3,
-            "variable_count": 5
+            "variable_count": 5,
+            "nonempty_line_count": 17
         }
     },
     "gravity_simulator.py": {
@@ -26,7 +28,8 @@
             "max_depth": 3,
             "function_count": 1,
             "conditional_count": 1,
-            "variable_count": 25
+            "variable_count": 25,
+            "nonempty_line_count": 46
         }
     },
     "huffman_encoding.py": {
@@ -36,7 +39,8 @@
             "max_depth": 1,
             "function_count": 1,
             "conditional_count": 2,
-            "variable_count": 13
+            "variable_count": 13,
+            "nonempty_line_count": 27
         }
     },
     "k_means.py": {
@@ -46,7 +50,8 @@
             "max_depth": 2,
             "function_count": 1,
             "conditional_count": 1,
-            "variable_count": 18
+            "variable_count": 18,
+            "nonempty_line_count": 41
         }
     },
     "linear_loop.py": {
@@ -56,7 +61,8 @@
             "max_depth": 1,
             "function_count": 1,
             "conditional_count": 1,
-            "variable_count": 5
+            "variable_count": 5,
+            "nonempty_line_count": 11
         }
     },
     "linear_loop_with_prints.py": {
@@ -66,7 +72,8 @@
             "max_depth": 1,
             "function_count": 1,
             "conditional_count": 1,
-            "variable_count": 5
+            "variable_count": 5,
+            "nonempty_line_count": 12
         }
     },
     "list_average.py": {
@@ -76,7 +83,8 @@
             "max_depth": 0,
             "function_count": 1,
             "conditional_count": 1,
-            "variable_count": 4
+            "variable_count": 4,
+            "nonempty_line_count": 8
         }
     },
     "list_stats.py": {
@@ -86,7 +94,8 @@
             "max_depth": 0,
             "function_count": 1,
             "conditional_count": 2,
-            "variable_count": 11
+            "variable_count": 11,
+            "nonempty_line_count": 26
         }
     },
     "list_sum.py": {
@@ -96,7 +105,8 @@
             "max_depth": 0,
             "function_count": 1,
             "conditional_count": 1,
-            "variable_count": 4
+            "variable_count": 4,
+            "nonempty_line_count": 8
         }
     },
     "logarithmic_loop.py": {
@@ -106,7 +116,8 @@
             "max_depth": 1,
             "function_count": 1,
             "conditional_count": 1,
-            "variable_count": 4
+            "variable_count": 4,
+            "nonempty_line_count": 12
         }
     },
     "matrix_multiplication.py": {
@@ -116,7 +127,8 @@
             "max_depth": 3,
             "function_count": 1,
             "conditional_count": 2,
-            "variable_count": 12
+            "variable_count": 12,
+            "nonempty_line_count": 25
         }
     },
     "maze_generator.py": {
@@ -126,7 +138,8 @@
             "max_depth": 2,
             "function_count": 1,
             "conditional_count": 5,
-            "variable_count": 17
+            "variable_count": 17,
+            "nonempty_line_count": 36
         }
     },
     "password_generator.py": {
@@ -136,7 +149,8 @@
             "max_depth": 0,
             "function_count": 1,
             "conditional_count": 1,
-            "variable_count": 5
+            "variable_count": 5,
+            "nonempty_line_count": 11
         }
     },
     "primes.py": {
@@ -146,7 +160,8 @@
             "max_depth": 2,
             "function_count": 1,
             "conditional_count": 3,
-            "variable_count": 7
+            "variable_count": 7,
+            "nonempty_line_count": 18
         }
     },
     "quadratic_loop.py": {
@@ -156,7 +171,8 @@
             "max_depth": 2,
             "function_count": 1,
             "conditional_count": 1,
-            "variable_count": 6
+            "variable_count": 6,
+            "nonempty_line_count": 12
         }
     },
     "remove_duplicates.py": {
@@ -166,7 +182,8 @@
             "max_depth": 0,
             "function_count": 1,
             "conditional_count": 1,
-            "variable_count": 3
+            "variable_count": 3,
+            "nonempty_line_count": 8
         }
     },
     "reverse_list.py": {
@@ -176,7 +193,8 @@
             "max_depth": 0,
             "function_count": 1,
             "conditional_count": 1,
-            "variable_count": 3
+            "variable_count": 3,
+            "nonempty_line_count": 8
         }
     },
     "sorting.py": {
@@ -186,7 +204,8 @@
             "max_depth": 0,
             "function_count": 1,
             "conditional_count": 1,
-            "variable_count": 4
+            "variable_count": 4,
+            "nonempty_line_count": 9
         }
     },
     "sorting_comparison.py": {
@@ -196,7 +215,8 @@
             "max_depth": 2,
             "function_count": 1,
             "conditional_count": 3,
-            "variable_count": 12
+            "variable_count": 12,
+            "nonempty_line_count": 28
         }
     },
     "stock_simulator.py": {
@@ -206,7 +226,8 @@
             "max_depth": 1,
             "function_count": 1,
             "conditional_count": 1,
-            "variable_count": 8
+            "variable_count": 8,
+            "nonempty_line_count": 23
         }
     },
     "word_search_generator.py": {
@@ -216,7 +237,8 @@
             "max_depth": 3,
             "function_count": 1,
             "conditional_count": 6,
-            "variable_count": 22
+            "variable_count": 22,
+            "nonempty_line_count": 47
         }
     }
 }

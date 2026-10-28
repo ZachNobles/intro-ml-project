@@ -27,6 +27,9 @@ def count_variables(tree):
     }
     return len(assigned | parameters)
 
+def count_nonempty_lines(source):
+    return sum(1 for line in source.splitlines() if line.strip())
+
 def analyze_loops(tree):
     loop_count = 0
     max_depth = 0
@@ -63,13 +66,15 @@ def analyze_file(filename):
     function_count = count_functions(tree)
     conditional_count = count_conditionals(tree)
     variable_count = count_variables(tree)
+    nonempty_line_count = count_nonempty_lines(source)
 
     return input_type, {
         "loop_count": loop_count,
         "max_depth": max_depth,
         "function_count": function_count,
         "conditional_count": conditional_count,
-        "variable_count": variable_count
+        "variable_count": variable_count,
+        "nonempty_line_count": nonempty_line_count
     }
 
 
@@ -88,7 +93,7 @@ def main(dataset_path):
                 count += 1
                 print(f"\rAnalyzing file: {file}",end=" ")
                 input_type, data = analyze_file(Path(root) / file)
-                print(f"| input type: {input_type}, loop count: {data['loop_count']}, function count: {data['function_count']}, max depth: {data['max_depth']}", end="")
+                print(f"| input type: {input_type}, loop count: {data['loop_count']}, function count: {data['function_count']}...", end="")
                 index[str(file)] = {"input_type": input_type, "data": data}
     print(f"\nAnalyzed {count} files in {time.time() - start_time:.2f} seconds.")
 
